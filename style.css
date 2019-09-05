@@ -166,10 +166,9 @@ td {
     opacity: 0.7;
 }
 
-.picture img {
-    float: left;
+.pictuce img {
     margin-left: 250px;
-    width: 50%;
+    width: 40%;
 
 }
 
@@ -178,8 +177,8 @@ li {
 }
 
 .text {
-    margin-left: 450px;
-    width: 50%;
+    margin-left: 350px;
+    width: 90%;
     font-size: 24px;
 }
 
