@@ -16,10 +16,15 @@ html, body {
     width: 100%;
     text-align: center;
     line-height: 20vh;
+    background-color: darkgrey;
 }
 
 h1 {
     margin: 0px;
+}
+
+.header h1 {
+    font-size: 3em;
 }
 
 .menu {
@@ -58,8 +63,66 @@ h1 {
 }
 
 .content {
-    height: 65%;
-    width: 100%;
+    height: calc(65% - 48px);
+    width: calc(100% - 72px);
+    margin: 24px;
+    display: flex;
+}
+
+table, td {
+    border-collapse: collapse;
+}
+
+thead {
+    display: table;
+    background: #333333;
+    color: white;
+    width: calc(100% - 17px);
+}
+
+tbody {
+    height: calc(65vh - 125px);
+    overflow-y: auto;
+    display: block;
+}
+
+th {
+    padding: 10px;
+    border: #333333 solid 1px;
+}
+
+td {
+  padding: 10px;
+  border: solid 1px;
+  text-align: center;
+}
+
+.cursus {
+    width: 255px;
+}
+
+.toets {
+    width: 185px;
+}
+
+.weging {
+    width: 65px;
+}
+
+.ec {
+    width: 50px;
+}
+
+.studiemonitor {
+    margin-left: 250px;
+}
+
+.studiewijzer {
+    margin-left: 48px;
+}
+
+.studiewijzer a {
+    display: block;
 }
 
 .footer {
@@ -101,4 +164,47 @@ h1 {
 
 .fa:hover {
     opacity: 0.7;
+}
+
+.picture img {
+    float: left;
+    margin-left: 250px;
+    width: 50%;
+
+}
+
+li {
+    font-size: 25px;
+}
+
+.text {
+    margin-left: 450px;
+    width: 50%;
+    font-size: 24px;
+}
+
+.imgs {
+    display: inline-block;
+}
+
+.geslaagd {
+    text-align: center;
+    width: 25%;
+    margin-left: 48px;
+}
+
+.geslaagd img {
+    width: 100%;
+    display: block;
+}
+
+.stroetenga {
+    text-align: center;
+    width: 25%;
+    margin-left: 48px;
+}
+
+.stroetenga img {
+    width: 100%;
+    display: block;
 }
