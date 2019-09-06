@@ -67,6 +67,7 @@ h1 {
     width: calc(100% - 72px);
     margin: 24px;
     display: flex;
+    background-color: red;
 }
 
 table, td {
