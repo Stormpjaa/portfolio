@@ -4,8 +4,7 @@ html, body {
 }
 
 .container {
-    display: inline-block;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     font-family: sans-serif;
     color: #333333;
@@ -63,10 +62,11 @@ h1 {
 }
 
 .content {
-    height: calc(65% - 48px);
+    /* height: calc(65% - 48px); */
     width: calc(100% - 72px);
     margin: 24px;
     display: flex;
+    
 }
 
 table, td {
@@ -126,11 +126,12 @@ td {
 }
 
 .footer {
+    bottom: 0;
     height: 10%;
     width: 100%;
     text-align: center;
     line-height: 10vh;
-    background-color: #333333
+    background-color: #333333;
 }
 
 .fa {
@@ -206,4 +207,10 @@ li {
 .stroetenga img {
     width: 100%;
     display: block;
+}
+
+.motivatie {
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size: 24px;
 }
